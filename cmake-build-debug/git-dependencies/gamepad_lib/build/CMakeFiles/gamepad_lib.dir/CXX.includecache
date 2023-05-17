@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include/gamepad.h
+fcntl.h
+-
+stdio.h
+-
+unistd.h
+-
+linux/joystick.h
+-
+string
+-
+thread
+-
+mutex
+-
+vector
+-
+queue
+-
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/src/gamepad.cpp
+gamepad.h
+-
+iostream
+-
+

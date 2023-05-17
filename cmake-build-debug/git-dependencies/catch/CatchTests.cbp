@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CatchTests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\git-dependencies\;CMake Files\git-dependencies\catch\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/catch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/catch/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/catch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/catch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/catch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/catch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\git-dependencies\catch\"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/DependenciesConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

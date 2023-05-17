@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include/performance.h
+string
+-
+chrono
+-
+map
+-
+vector
+-
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/src/performance.cpp
+performance.h
+-
+iostream
+-
+iomanip
+-
+mutex
+-
+

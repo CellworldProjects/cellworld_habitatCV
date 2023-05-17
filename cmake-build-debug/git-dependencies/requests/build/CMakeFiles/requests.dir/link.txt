@@ -1,0 +1,2 @@
+/usr/bin/ar qc librequests.a  CMakeFiles/requests.dir/src/request.cpp.o CMakeFiles/requests.dir/src/response.cpp.o
+/usr/bin/ranlib librequests.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libperf-analysis.a  CMakeFiles/perf-analysis.dir/src/performance.cpp.o
+/usr/bin/ranlib libperf-analysis.a

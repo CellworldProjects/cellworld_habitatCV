@@ -1,0 +1,2 @@
+/usr/bin/ar qc librobot_lib.a  CMakeFiles/robot_lib.dir/src/robot_simulator.cpp.o CMakeFiles/robot_lib.dir/src/tracking_simulator.cpp.o CMakeFiles/robot_lib.dir/src/gamepad_wrapper.cpp.o CMakeFiles/robot_lib.dir/src/robot_agent.cpp.o
+/usr/bin/ranlib librobot_lib.a

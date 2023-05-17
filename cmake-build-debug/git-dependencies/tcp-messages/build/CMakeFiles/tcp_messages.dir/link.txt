@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtcp_messages.a  CMakeFiles/tcp_messages.dir/src/message.cpp.o CMakeFiles/tcp_messages.dir/src/message_client.cpp.o CMakeFiles/tcp_messages.dir/src/message_router.cpp.o CMakeFiles/tcp_messages.dir/src/message_server.cpp.o CMakeFiles/tcp_messages.dir/src/message_event.cpp.o CMakeFiles/tcp_messages.dir/src/message_list.cpp.o
+/usr/bin/ranlib libtcp_messages.a

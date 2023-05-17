@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread  -g   CMakeFiles/gamepad.dir/src/gamepad_test.cpp.o  -o gamepad  libgamepad_lib.a 

@@ -1,0 +1,721 @@
+2023-05-17T16:15:55 ACTION: Build atYO3FbCwD started
+2023-05-17T16:15:55 ACTION: Creating dependency cmake wrapper
+2023-05-17T16:17:38 ACTION: Build wmZhv0ijDR started
+2023-05-17T16:17:38 ACTION: git clone --depth=1 https://github.com/germanespinosa/perf-analysis /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis
+2023-05-17T16:17:38 RESULT: 0
+2023-05-17T16:17:38 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis'...
+
+2023-05-17T16:17:38 ACTION: Removing git connection
+2023-05-17T16:17:38 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='perf-analysis'
+                    
+2023-05-17T16:17:39 RESULT: 0
+2023-05-17T16:17:39 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/perf-analysis
+
+2023-05-17T16:17:39 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/perf-analysis --target all -j
+2023-05-17T16:17:40 RESULT: 0
+2023-05-17T16:17:40 RESULT: Scanning dependencies of target perf-analysis
+[ 50%] Building CXX object build/CMakeFiles/perf-analysis.dir/src/performance.cpp.o
+[100%] Linking CXX static library libperf-analysis.a
+[100%] Built target perf-analysis
+
+2023-05-17T16:17:40 ACTION: Importing perf-analysis from Perf-analysis
+2023-05-17T16:17:40 ACTION: git clone https://github.com/germanespinosa/cellworld_controller /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller
+2023-05-17T16:17:40 RESULT: 0
+2023-05-17T16:17:40 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller'...
+
+2023-05-17T16:17:40 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='cellworld_controller'
+                    
+2023-05-17T16:17:41 ACTION: git clone --depth=1 https://github.com/germanespinosa/cellworld /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld
+2023-05-17T16:17:42 RESULT: 0
+2023-05-17T16:17:42 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld'...
+
+2023-05-17T16:17:42 ACTION: Removing git connection
+2023-05-17T16:17:42 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='cellworld'
+                    
+2023-05-17T16:17:43 ACTION: git clone --depth=1 https://github.com/germanespinosa/json-cpp /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp
+2023-05-17T16:17:43 RESULT: 0
+2023-05-17T16:17:43 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp'...
+
+2023-05-17T16:17:43 ACTION: Removing git connection
+2023-05-17T16:17:43 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='json-cpp'
+                    
+2023-05-17T16:17:45 ACTION: git clone --depth=1 https://github.com/germanespinosa/catch /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/catch
+2023-05-17T16:17:45 RESULT: 0
+2023-05-17T16:17:45 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/catch'...
+
+2023-05-17T16:17:45 ACTION: Removing git connection
+2023-05-17T16:17:45 ACTION: git clone --depth=1 https://github.com/HowardHinnant/date /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date
+2023-05-17T16:17:45 RESULT: 0
+2023-05-17T16:17:45 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date'...
+
+2023-05-17T16:17:45 ACTION: Removing git connection
+2023-05-17T16:17:45 RESULT: 0
+2023-05-17T16:17:45 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GIT: /usr/lib/git-core/git (found version "2.25.1")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/json-cpp
+
+2023-05-17T16:17:45 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/catch'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date'...
+
+
+2023-05-17T16:17:45 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/json-cpp --target all -j
+2023-05-17T16:17:47 RESULT: 0
+2023-05-17T16:17:47 RESULT: Scanning dependencies of target json-cpp
+[ 77%] Building CXX object build/CMakeFiles/json-cpp.dir/src/json_util.cpp.o
+[ 77%] Building CXX object build/CMakeFiles/json-cpp.dir/src/json_object.cpp.o
+[ 77%] Building CXX object build/CMakeFiles/json-cpp.dir/src/json_base.cpp.o
+[ 77%] Building CXX object build/CMakeFiles/json-cpp.dir/src/json_builder.cpp.o
+[ 77%] Building CXX object build/CMakeFiles/json-cpp.dir/src/json_base64.cpp.o
+[ 77%] Building CXX object build/CMakeFiles/json-cpp.dir/src/json_buffer.cpp.o
+[ 77%] Building CXX object build/CMakeFiles/json-cpp.dir/src/json_date.cpp.o
+[ 88%] Building CXX object build/CMakeFiles/json-cpp.dir/src/json_dictionary.cpp.o
+[100%] Linking CXX static library libjson-cpp.a
+[100%] Built target json-cpp
+
+2023-05-17T16:17:47 ACTION: Importing json-cpp from Json-cpp
+2023-05-17T16:17:47 ACTION: git clone --depth=1 https://github.com/germanespinosa/requests /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests
+2023-05-17T16:17:47 RESULT: 0
+2023-05-17T16:17:47 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests'...
+
+2023-05-17T16:17:47 ACTION: Removing git connection
+2023-05-17T16:17:47 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='requests'
+                    
+2023-05-17T16:17:48 RESULT: 0
+2023-05-17T16:17:48 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/requests
+
+2023-05-17T16:17:48 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/requests --target all -j
+2023-05-17T16:17:49 RESULT: 0
+2023-05-17T16:17:49 RESULT: Scanning dependencies of target requests
+[ 66%] Building CXX object build/CMakeFiles/requests.dir/src/request.cpp.o
+[ 66%] Building CXX object build/CMakeFiles/requests.dir/src/response.cpp.o
+[100%] Linking CXX static library librequests.a
+[100%] Built target requests
+
+2023-05-17T16:17:49 ACTION: Importing requests from Requests
+2023-05-17T16:17:49 RESULT: 0
+2023-05-17T16:17:49 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GIT: /usr/lib/git-core/git (found version "2.25.1")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/cellworld
+
+2023-05-17T16:17:49 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/catch'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date'...
+
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests'...
+
+
+2023-05-17T16:17:49 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/cellworld --target all -j
+2023-05-17T16:17:55 RESULT: 0
+2023-05-17T16:17:55 RESULT: Scanning dependencies of target cellworld
+[ 24%] Building CXX object build/CMakeFiles/cellworld.dir/src/location.cpp.o
+[ 24%] Building CXX object build/CMakeFiles/cellworld.dir/src/connection.cpp.o
+[ 24%] Building CXX object build/CMakeFiles/cellworld.dir/src/agent.cpp.o
+[ 24%] Building CXX object build/CMakeFiles/cellworld.dir/src/coordinates.cpp.o
+[ 28%] Building CXX object build/CMakeFiles/cellworld.dir/src/transformation.cpp.o
+[ 28%] Building CXX object build/CMakeFiles/cellworld.dir/src/geometry.cpp.o
+[ 28%] Building CXX object build/CMakeFiles/cellworld.dir/src/core.cpp.o
+[ 32%] Building CXX object build/CMakeFiles/cellworld.dir/src/shape.cpp.o
+[ 36%] Building CXX object build/CMakeFiles/cellworld.dir/src/cell.cpp.o
+[ 40%] Building CXX object build/CMakeFiles/cellworld.dir/src/chance.cpp.o
+[ 44%] Building CXX object build/CMakeFiles/cellworld.dir/src/model.cpp.o
+[ 48%] Building CXX object build/CMakeFiles/cellworld.dir/src/visibility.cpp.o
+[ 52%] Building CXX object build/CMakeFiles/cellworld.dir/src/world.cpp.o
+[ 56%] Building CXX object build/CMakeFiles/cellworld.dir/src/cell_group.cpp.o
+[ 60%] Building CXX object build/CMakeFiles/cellworld.dir/src/graph.cpp.o
+[ 64%] Building CXX object build/CMakeFiles/cellworld.dir/src/frame.cpp.o
+[ 68%] Building CXX object build/CMakeFiles/cellworld.dir/src/state.cpp.o
+[ 72%] Building CXX object build/CMakeFiles/cellworld.dir/src/paths.cpp.o
+[ 76%] Building CXX object build/CMakeFiles/cellworld.dir/src/map.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/cellworld.dir/src/capture.cpp.o
+[ 84%] Building CXX object build/CMakeFiles/cellworld.dir/src/peeking.cpp.o
+[ 88%] Building CXX object build/CMakeFiles/cellworld.dir/src/pose.cpp.o
+[ 92%] Building CXX object build/CMakeFiles/cellworld.dir/src/experiment.cpp.o
+[ 96%] Building CXX object build/CMakeFiles/cellworld.dir/src/resources.cpp.o
+[100%] Linking CXX static library libcellworld.a
+[100%] Built target cellworld
+
+2023-05-17T16:17:55 ACTION: Importing cellworld from Cellworld
+2023-05-17T16:17:55 ACTION: Importing json-cpp from Cellworld
+2023-05-17T16:17:55 ACTION: Importing requests from Cellworld
+2023-05-17T16:17:55 ACTION: git clone --depth=1 https://github.com/germanespinosa/easy-tcp /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp
+2023-05-17T16:17:56 RESULT: 0
+2023-05-17T16:17:56 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp'...
+
+2023-05-17T16:17:56 ACTION: Removing git connection
+2023-05-17T16:17:56 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='easy-tcp'
+                    
+2023-05-17T16:17:57 RESULT: 0
+2023-05-17T16:17:57 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GIT: /usr/lib/git-core/git (found version "2.25.1")
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/easy-tcp
+
+2023-05-17T16:17:57 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/easy-tcp --target all -j
+2023-05-17T16:17:58 RESULT: 0
+2023-05-17T16:17:58 RESULT: Scanning dependencies of target easy-tcp
+[ 80%] Building CXX object build/CMakeFiles/easy-tcp.dir/src/connection.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/easy-tcp.dir/src/service.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/easy-tcp.dir/src/client.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/easy-tcp.dir/src/listener.cpp.o
+[100%] Linking CXX static library libeasy-tcp.a
+[100%] Built target easy-tcp
+
+2023-05-17T16:17:58 ACTION: Importing easy-tcp from Easy-tcp
+2023-05-17T16:17:58 ACTION: git clone --depth=1 https://github.com/germanespinosa/tcp-messages /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages
+2023-05-17T16:17:58 RESULT: 0
+2023-05-17T16:17:58 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages'...
+
+2023-05-17T16:17:58 ACTION: Removing git connection
+2023-05-17T16:17:58 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='tcp-messages'
+                    
+2023-05-17T16:18:00 ACTION: Importing json-cpp from Json-cpp
+2023-05-17T16:18:00 RESULT: 0
+2023-05-17T16:18:00 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GIT: /usr/lib/git-core/git (found version "2.25.1")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/tcp-messages
+
+2023-05-17T16:18:00 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/tcp-messages --target all -j
+2023-05-17T16:18:01 RESULT: 0
+2023-05-17T16:18:01 RESULT: Scanning dependencies of target tcp_messages
+[ 85%] Building CXX object build/CMakeFiles/tcp_messages.dir/src/message_client.cpp.o
+[ 85%] Building CXX object build/CMakeFiles/tcp_messages.dir/src/message_list.cpp.o
+[ 85%] Building CXX object build/CMakeFiles/tcp_messages.dir/src/message_router.cpp.o
+[ 85%] Building CXX object build/CMakeFiles/tcp_messages.dir/src/message_server.cpp.o
+[ 85%] Building CXX object build/CMakeFiles/tcp_messages.dir/src/message_event.cpp.o
+[ 85%] Building CXX object build/CMakeFiles/tcp_messages.dir/src/message.cpp.o
+[100%] Linking CXX static library libtcp_messages.a
+[100%] Built target tcp_messages
+
+2023-05-17T16:18:01 ACTION: Importing tcp_messages from Tcp_messages
+2023-05-17T16:18:01 ACTION: git clone --depth=1 https://github.com/germanespinosa/agent_tracking /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking
+2023-05-17T16:18:02 RESULT: 0
+2023-05-17T16:18:02 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking'...
+
+2023-05-17T16:18:02 ACTION: Removing git connection
+2023-05-17T16:18:02 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='agent_tracking'
+                    
+2023-05-17T16:18:03 ACTION: Importing tcp_messages from Tcp_messages
+2023-05-17T16:18:03 ACTION: Importing json-cpp from Tcp_messages
+2023-05-17T16:18:03 RESULT: 0
+2023-05-17T16:18:03 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GIT: /usr/lib/git-core/git (found version "2.25.1")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/agent_tracking
+
+2023-05-17T16:18:03 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/agent_tracking --target all -j
+2023-05-17T16:18:07 RESULT: 0
+2023-05-17T16:18:07 RESULT: Scanning dependencies of target agent_tracking
+[ 66%] Building CXX object build/CMakeFiles/agent_tracking.dir/src/tracking_client.cpp.o
+[ 66%] Building CXX object build/CMakeFiles/agent_tracking.dir/src/tracking_service.cpp.o
+[100%] Linking CXX static library libagent_tracking.a
+[100%] Built target agent_tracking
+
+2023-05-17T16:18:07 ACTION: Importing agent_tracking from Agent_tracking
+2023-05-17T16:18:07 ACTION: git clone --depth=1 https://github.com/germanespinosa/experiment_service /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service
+2023-05-17T16:18:07 RESULT: 0
+2023-05-17T16:18:07 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service'...
+
+2023-05-17T16:18:07 ACTION: Removing git connection
+2023-05-17T16:18:07 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='experiment_service'
+                    
+2023-05-17T16:18:09 ACTION: Importing perf-analysis from Perf-analysis
+2023-05-17T16:18:09 RESULT: 0
+2023-05-17T16:18:09 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GIT: /usr/lib/git-core/git (found version "2.25.1")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/experiment_service
+
+2023-05-17T16:18:09 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/experiment_service --target all -j
+2023-05-17T16:18:13 RESULT: 0
+2023-05-17T16:18:13 RESULT: Scanning dependencies of target experiment_service
+[ 33%] Building CXX object build/CMakeFiles/experiment_service.dir/src/experiment_service.cpp.o
+[ 66%] Building CXX object build/CMakeFiles/experiment_service.dir/src/experiment_client.cpp.o
+[100%] Linking CXX static library libexperiment_service.a
+[100%] Built target experiment_service
+
+2023-05-17T16:18:13 ACTION: Importing experiment_service from Experiment_service
+2023-05-17T16:18:13 ACTION: Importing perf-analysis from Experiment_service
+2023-05-17T16:18:14 RESULT: 0
+2023-05-17T16:18:14 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GIT: /usr/lib/git-core/git (found version "2.25.1")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/cellworld_controller
+
+2023-05-17T16:18:14 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/catch'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date'...
+
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests'...
+
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service'...
+
+
+2023-05-17T16:18:14 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/cellworld_controller --target all -j
+2023-05-17T16:18:19 RESULT: 0
+2023-05-17T16:18:19 RESULT: Scanning dependencies of target controller
+[ 80%] Building CXX object build/CMakeFiles/controller.dir/src/controller_service.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/controller.dir/src/agent.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/controller.dir/src/pid_controller.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/controller.dir/src/controller_client.cpp.o
+[100%] Linking CXX static library libcontroller.a
+[100%] Built target controller
+
+2023-05-17T16:18:19 ACTION: Importing controller from Controller
+2023-05-17T16:18:19 ACTION: Importing agent_tracking from Controller
+2023-05-17T16:18:19 ACTION: Importing cellworld from Controller
+2023-05-17T16:18:19 ACTION: Importing json-cpp from Controller
+2023-05-17T16:18:19 ACTION: Importing requests from Controller
+2023-05-17T16:18:19 ACTION: Importing tcp_messages from Controller
+2023-05-17T16:18:19 ACTION: Importing easy-tcp from Controller
+2023-05-17T16:18:19 ACTION: Importing experiment_service from Controller
+2023-05-17T16:18:19 ACTION: git clone https://github.com/germanespinosa/robot_library /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library
+2023-05-17T16:18:20 RESULT: 0
+2023-05-17T16:18:20 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library'...
+
+2023-05-17T16:18:20 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='robot_library'
+                    
+2023-05-17T16:18:21 ACTION: git clone --depth=1 https://github.com/germanespinosa/gamepad_lib /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib
+2023-05-17T16:18:21 RESULT: 0
+2023-05-17T16:18:21 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib'...
+
+2023-05-17T16:18:21 ACTION: Removing git connection
+2023-05-17T16:18:21 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='gamepad_lib'
+                    
+2023-05-17T16:18:22 RESULT: 0
+2023-05-17T16:18:22 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/gamepad_lib
+
+2023-05-17T16:18:22 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/gamepad_lib --target all -j
+2023-05-17T16:18:23 RESULT: 0
+2023-05-17T16:18:23 RESULT: Scanning dependencies of target gamepad_lib
+[ 25%] Building CXX object build/CMakeFiles/gamepad_lib.dir/src/gamepad.cpp.o
+[ 50%] Linking CXX static library libgamepad_lib.a
+[ 50%] Built target gamepad_lib
+Scanning dependencies of target gamepad
+[ 75%] Building CXX object build/CMakeFiles/gamepad.dir/src/gamepad_test.cpp.o
+[100%] Linking CXX executable gamepad
+[100%] Built target gamepad
+
+2023-05-17T16:18:23 ACTION: Importing gamepad_lib from Gamepad_lib
+2023-05-17T16:18:23 ACTION: Importing cellworld from Cellworld
+2023-05-17T16:18:23 ACTION: Importing json-cpp from Cellworld
+2023-05-17T16:18:23 ACTION: Importing requests from Cellworld
+2023-05-17T16:18:23 ACTION: git clone --depth=1 https://github.com/germanespinosa/params-cpp /home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp
+2023-05-17T16:18:23 RESULT: 0
+2023-05-17T16:18:23 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp'...
+
+2023-05-17T16:18:23 ACTION: Removing git connection
+2023-05-17T16:18:23 ACTION: /usr/bin/cmake
+                    /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies
+                    -DDEPENDENCIES_BUILD_NUMBER=wmZhv0ijDR
+                    -DDEPENDENCIES_LOG_FILE='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies.log'
+                    -DBUILD_AS_DEPENDENCY=TRUE
+                    -DDEPENDENCIES_DESTINATION='/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies'
+                    -DDEPENDENCIES_FOLDER='/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies'
+                    --no-warn-unused-cli
+                    -DCMAKE_BUILD_TYPE=Debug
+                    -Wno-dev
+                    -DCATCH_TESTS=DISABLED
+                    -DCONNECT_ALL_DEPENDENCIES=OFF
+                    -DDEPENDENCY='params-cpp'
+                    
+2023-05-17T16:18:24 RESULT: 0
+2023-05-17T16:18:24 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/params-cpp
+
+2023-05-17T16:18:24 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/params-cpp --target all -j
+2023-05-17T16:18:25 RESULT: 0
+2023-05-17T16:18:25 RESULT: Scanning dependencies of target params-cpp
+[ 33%] Building CXX object build/CMakeFiles/params-cpp.dir/src/parser.cpp.o
+[ 66%] Building CXX object build/CMakeFiles/params-cpp.dir/src/key.cpp.o
+[100%] Linking CXX static library libparams-cpp.a
+[100%] Built target params-cpp
+
+2023-05-17T16:18:25 ACTION: Importing params-cpp from Params-cpp
+2023-05-17T16:18:25 ACTION: Importing easy-tcp from Easy-tcp
+2023-05-17T16:18:25 ACTION: Importing tcp_messages from Tcp_messages
+2023-05-17T16:18:25 ACTION: Importing agent_tracking from Agent_tracking
+2023-05-17T16:18:25 ACTION: Importing experiment_service from Experiment_service
+2023-05-17T16:18:25 ACTION: Importing perf-analysis from Experiment_service
+2023-05-17T16:18:25 ACTION: Importing controller from Controller
+2023-05-17T16:18:25 RESULT: 0
+2023-05-17T16:18:25 RESULT: Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GIT: /usr/lib/git-core/git (found version "2.25.1")
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/robot_library
+
+2023-05-17T16:18:25 ERROR: Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib'...
+
+Cloning into '/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp'...
+
+
+2023-05-17T16:18:25 ACTION: /usr/bin/cmake --build /home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/git-dependencies/robot_library --target all -j
+2023-05-17T16:18:29 RESULT: 0
+2023-05-17T16:18:29 RESULT: Scanning dependencies of target robot_lib
+[ 80%] Building CXX object build/CMakeFiles/robot_lib.dir/src/robot_simulator.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/robot_lib.dir/src/robot_agent.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/robot_lib.dir/src/gamepad_wrapper.cpp.o
+[ 80%] Building CXX object build/CMakeFiles/robot_lib.dir/src/tracking_simulator.cpp.o
+[100%] Linking CXX static library librobot_lib.a
+[100%] Built target robot_lib
+
+2023-05-17T16:18:29 ACTION: Importing gamepad_lib from Robot_lib
+2023-05-17T16:18:29 ACTION: Importing params-cpp from Robot_lib
+2023-05-17T16:18:29 ACTION: Importing robot_lib from Robot_lib
+2023-05-17T16:19:22 ACTION: Build 7YscS7RrRc started

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include/params_cpp/key.h
+string
+-
+vector
+-
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include/params_cpp/parser.h
+string
+-
+vector
+-
+params_cpp/key.h
+-
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/src/key.cpp
+params_cpp/key.h
+-
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/src/parser.cpp
+stdexcept
+-
+params_cpp/parser.h
+-
+

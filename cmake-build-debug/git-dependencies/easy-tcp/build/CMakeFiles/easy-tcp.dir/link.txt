@@ -1,0 +1,2 @@
+/usr/bin/ar qc libeasy-tcp.a  CMakeFiles/easy-tcp.dir/src/listener.cpp.o CMakeFiles/easy-tcp.dir/src/connection.cpp.o CMakeFiles/easy-tcp.dir/src/service.cpp.o CMakeFiles/easy-tcp.dir/src/client.cpp.o
+/usr/bin/ranlib libeasy-tcp.a

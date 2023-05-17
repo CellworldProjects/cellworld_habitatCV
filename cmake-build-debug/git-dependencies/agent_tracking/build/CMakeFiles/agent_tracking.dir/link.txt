@@ -1,0 +1,2 @@
+/usr/bin/ar qc libagent_tracking.a  CMakeFiles/agent_tracking.dir/src/tracking_service.cpp.o CMakeFiles/agent_tracking.dir/src/tracking_client.cpp.o
+/usr/bin/ranlib libagent_tracking.a

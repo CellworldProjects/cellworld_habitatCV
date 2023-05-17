@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/include/request.h
+iostream
+-
+curl/curl.h
+-
+response.h
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/include/response.h
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/include/response.h
+vector
+-
+sstream
+-
+fstream
+-
+iostream
+-
+typeinfo
+-
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/src/request.cpp
+iostream
+-
+string
+-
+request.h
+-
+cstring
+-
+unistd.h
+-
+
+/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/src/response.cpp
+response.h
+-
+unistd.h
+-
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjson-cpp.a  CMakeFiles/json-cpp.dir/src/json_base.cpp.o CMakeFiles/json-cpp.dir/src/json_base64.cpp.o CMakeFiles/json-cpp.dir/src/json_buffer.cpp.o CMakeFiles/json-cpp.dir/src/json_util.cpp.o CMakeFiles/json-cpp.dir/src/json_builder.cpp.o CMakeFiles/json-cpp.dir/src/json_object.cpp.o CMakeFiles/json-cpp.dir/src/json_date.cpp.o CMakeFiles/json-cpp.dir/src/json_dictionary.cpp.o
+/usr/bin/ranlib libjson-cpp.a

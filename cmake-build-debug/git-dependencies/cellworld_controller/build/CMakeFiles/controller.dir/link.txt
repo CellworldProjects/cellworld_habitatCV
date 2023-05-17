@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcontroller.a  CMakeFiles/controller.dir/src/pid_controller.cpp.o CMakeFiles/controller.dir/src/controller_service.cpp.o CMakeFiles/controller.dir/src/controller_client.cpp.o CMakeFiles/controller.dir/src/agent.cpp.o
+/usr/bin/ranlib libcontroller.a

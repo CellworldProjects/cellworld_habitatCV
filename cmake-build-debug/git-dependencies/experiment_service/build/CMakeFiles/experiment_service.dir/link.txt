@@ -1,0 +1,2 @@
+/usr/bin/ar qc libexperiment_service.a  CMakeFiles/experiment_service.dir/src/experiment_client.cpp.o CMakeFiles/experiment_service.dir/src/experiment_service.cpp.o
+/usr/bin/ranlib libexperiment_service.a

@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="habitat_cv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\git-dependencies\;CMake Files\git-dependencies\catch\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camera_test">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/camera_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 camera_test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camera_test/fast">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/camera_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 camera_test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homography">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/homography" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 homography"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homography/fast">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/homography" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 homography/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="create_paths">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/create_paths" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 create_paths"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="create_paths/fast">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/create_paths" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 create_paths/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse_videos_logs">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/reverse_videos_logs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse_videos_logs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse_videos_logs/fast">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/reverse_videos_logs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse_videos_logs/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="agent_tracker">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/agent_tracker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 agent_tracker"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="agent_tracker/fast">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/agent_tracker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 agent_tracker/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="control_frame_shift">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/control_frame_shift" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 control_frame_shift"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="control_frame_shift/fast">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/control_frame_shift" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 control_frame_shift/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="habitat_cv">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/libhabitat_cv.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 habitat_cv"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="habitat_cv/fast">
+				<Option output="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/libhabitat_cv.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/xclib/inc"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/perf-analysis/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/json-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/date/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/easy-tcp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/tcp-messages/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/agent_tracking/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/experiment_service/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/cellworld_controller/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/gamepad_lib/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/params-cpp/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/robot_library/include"/>
+					<Add directory="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/requests/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 habitat_cv/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/background.cpp">
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/camera.cpp">
+			<Option target="camera_test"/>
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/camera_array.cpp">
+			<Option target="camera_test"/>
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/camera_configuration.cpp">
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/composite.cpp">
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/cv_service.cpp">
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/detection.cpp">
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/frame_rate.cpp">
+			<Option target="camera_test"/>
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/image.cpp">
+			<Option target="camera_test"/>
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/layout.cpp">
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/layouts.cpp">
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/tools/agent_tracker.cpp">
+			<Option target="agent_tracker"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/tools/camera_test.cpp">
+			<Option target="camera_test"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/tools/control_frame_shift.cpp">
+			<Option target="control_frame_shift"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/tools/create_paths.cpp">
+			<Option target="create_paths"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/tools/homography.cpp">
+			<Option target="homography"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/tools/reverse_videos_logs.cpp">
+			<Option target="reverse_videos_logs"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/src/video.cpp">
+			<Option target="camera_test"/>
+			<Option target="habitat_cv"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/git-dependencies/catch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\git-dependencies\catch\"/>
+		</Unit>
+		<Unit filename="/home/gabbie/CellworldProjects_Organization/habitat_cv/cmake-build-debug/DependenciesConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
